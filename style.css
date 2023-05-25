@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+        "h h"
+        "a b"
+        "f f" ;
+    place-items: center;
+}
+
+.header{
+    grid-area: h;
+    
+}
+
+.button-1{
+    grid-area: a;
+}
+
+.input-field{
+    grid-area: b;
+}
+
+.button-3{
+    grid-area: f;
+}

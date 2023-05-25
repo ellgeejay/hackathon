@@ -1,0 +1,11 @@
+{
+    "name": "Block You",
+    "version": "0.0.0.1",
+    "description": "World's best chrome extension",
+    "manifest_version": 3,
+    "authors": "Mitch Gruen and Laura Glass-Johnston",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Block You"
+    }
+}
