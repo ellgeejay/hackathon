@@ -1,5 +1,18 @@
-//Files to create:
-    // main.js
-    // index.html
-    // style.css
-    // manifest.json()
+document.getElementById('onOffButton').addEventListener('click', onOff);
+
+function onOff() {
+    console.log('on/off click');
+}
+
+// document.getElementById('lockForm').addEventListener('submit', submitHours)
+
+function submitHours() {
+    console.log('submit hours');
+}
+
+document.getElementById('lockButton').addEventListener('click', lock)
+function lock() {
+    console.log('locked');
+}
+
+console.log(document.getElementById('vQuota').value);
