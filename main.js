@@ -18,7 +18,7 @@ function lock() {
 
 document.getElementById('FAQ').addEventListener('click', questionsAnswered);
 function questionsAnswered() {
-  alert("So here's the thing...we tried really hard. For so many hours. We don't really know what we're doing with APIs. When we tried to implement them, they didn't function as expected and we have no framework or protocol for debugging these types of issues effectively.")
+  alert("We ran into all kinds of problems when trying to implement the chrome.tabs API, which would have been necessary to make our extension functional. However, it is important to note that we tried really really hard to make this extension work.")
 }
 
 console.log(document.getElementById('vQuota').value);
