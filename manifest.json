@@ -6,6 +6,12 @@
     "authors": "Mitch Gruen and Laura Glass-Johnston",
     "action": {
         "default_popup": "index.html",
-        "default_title": "Block You"
+        "default_title": "Block You",
+    "permissions": [
+        "tabs"
+      ]
     }
+  
+
+  
 }
